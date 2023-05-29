@@ -13,6 +13,6 @@ export class Almacenes extends BaseEntity{
     @Column("varchar", { length: 200 })
     nombre_almacen: string
 
-    @Column("varchar", { length: 200 })
+    @Column("varchar", { length: 200 })m
     direccion: string
 }
